@@ -1,0 +1,12 @@
+C:\Users\zbcwise\Desktop\DataAccessLibrary\bin\Debug\net7.0-windows\DataAccessLibrary.deps.json
+C:\Users\zbcwise\Desktop\DataAccessLibrary\bin\Debug\net7.0-windows\DataAccessLibrary.dll
+C:\Users\zbcwise\Desktop\DataAccessLibrary\bin\Debug\net7.0-windows\DataAccessLibrary.pdb
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.dll
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\refint\DataAccessLibrary.dll
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.pdb
+C:\Users\zbcwise\Desktop\DataAccessLibrary\obj\Debug\net7.0-windows\ref\DataAccessLibrary.dll

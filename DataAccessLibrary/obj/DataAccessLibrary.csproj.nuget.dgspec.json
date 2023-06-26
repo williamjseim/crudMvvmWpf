@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj": {}
+    "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj": {
+    "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj",
-        "projectName": "CrudMvvm",
-        "projectPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj",
+        "projectUniqueName": "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectName": "DataAccessLibrary",
+        "projectPath": "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj",
         "packagesPath": "C:\\Users\\zbcwise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\obj\\",
+        "outputPath": "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\zbcwise\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
@@ -34,11 +34,7 @@
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
-            "projectReferences": {
-              "C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-                "projectPath": "C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -50,6 +46,20 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,9 +74,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
