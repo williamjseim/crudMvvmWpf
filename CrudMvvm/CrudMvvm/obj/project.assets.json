@@ -637,31 +637,30 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj",
       "DataAccessLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zbcwise\\.nuget\\packages\\": {},
-    "C:\\Users\\zbcwise\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "C:\\Users\\Spurgt fuglen\\.nuget\\packages\\": {},
+    "C:\\Users\\Spurgt fuglen\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj",
+      "projectUniqueName": "F:\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj",
       "projectName": "CrudMvvm",
-      "projectPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj",
-      "packagesPath": "C:\\Users\\zbcwise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\obj\\",
+      "projectPath": "F:\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\CrudMvvm.csproj",
+      "packagesPath": "C:\\Users\\Spurgt fuglen\\.nuget\\packages\\",
+      "outputPath": "F:\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\zbcwise\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+        "C:\\Users\\Spurgt fuglen\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\zbcwise\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\zbcwise\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Users\\Spurgt fuglen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Spurgt fuglen\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -677,11 +676,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj"
-            },
-            "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "F:\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "F:\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }
@@ -717,16 +713,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\zbcwise\\Documents\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj",
-      "targetGraphs": [
-        "net7.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

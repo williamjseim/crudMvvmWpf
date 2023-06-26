@@ -12,8 +12,8 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Label Content="UserName" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0"></Label>
-        <Label Content="PassWord" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"></Label>
-        <Button Content="ok" Grid.Row="2"></Button>
+        <TextBlock content HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="0"></TextBlock>
+        <Label Content="PassWord" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Width="174" Height="41"></Label>
+        <Button Name="button" Content="ok" Grid.Row="2"></Button>
     </Grid>
 </Window>

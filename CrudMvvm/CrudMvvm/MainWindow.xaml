@@ -31,6 +31,6 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Create New User" Click="CreateNewUser" HorizontalAlignment="Left" Margin="704,3,0,0" VerticalAlignment="Top"/>
+        <Button Content="Create New User" Click="OpenDialogBox" HorizontalAlignment="Left" Margin="704,3,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

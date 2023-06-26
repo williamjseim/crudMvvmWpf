@@ -8,6 +8,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Documents;
 using System.Windows.Input;
 
@@ -46,7 +47,7 @@ namespace CrudMvvm
             List.Remove(data);
             await TempDataGetter.DeleteData(data);
         }
-        public async void CreateNewUser()
+        public async void CreateNewUser(object sender, RoutedEventArgs e)
         {
             shitModel model = new shitModel { userName = "username", passWord = "password" };
             await TempDataGetter.CreateNewUser(model);

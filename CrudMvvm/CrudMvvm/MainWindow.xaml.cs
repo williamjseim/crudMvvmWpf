@@ -46,6 +46,12 @@ namespace CrudMvvm
             ShitGrid.ItemsSource = viewModel.List;
         }
 
+        void OpenDialogBox(object sender, RoutedEventArgs e)
+        {
+            NewUserDialogBox dialog = new();
+            dialog.ShowDialog();
+            dialog.button.Click += viewModel.CreateNewUser;
+        }
 
         private void EditData(object sender, RoutedEventArgs e)
         {
@@ -63,15 +69,6 @@ namespace CrudMvvm
             {
                 shitModel data = (shitModel)((Button)e.Source).DataContext;
                 viewModel.DeleteData(data);
-            }
-            catch (Exception a) { Debug.WriteLine(a + " fail"); }
-        }
-
-        private void CreateNewUser(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                viewModel.CreateNewUser();
             }
             catch (Exception a) { Debug.WriteLine(a + " fail"); }
         }

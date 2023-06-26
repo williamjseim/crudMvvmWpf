@@ -10,7 +10,7 @@ namespace DataAccessLibrary
     public class SqlDataAccess : ISqlDataAccess
     {
 
-        public string ConnectionStringName { get; set; } = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\zbcwise\\source\\repos\\CrudMvvm\\CrudMvvm\\Database1.mdf;Integrated Security=True";
+        public string ConnectionStringName { get; set; } = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\GitHub\\crudMvvm\\CrudMvvm\\CrudMvvm\\Database1.mdf;Integrated Security=True";
         public SqlDataAccess()
         {
         }
