@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj": {}
+    "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+    "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj",
         "projectName": "DataAccessLibrary",
-        "projectPath": "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\DataAccessLibrary.csproj",
         "packagesPath": "C:\\Users\\zbcwise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbcwise\\Desktop\\DataAccessLibrary\\obj\\",
+        "outputPath": "C:\\Users\\zbcwise\\Documents\\GitHub\\crudMvvm\\DataAccessLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\zbcwise\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",

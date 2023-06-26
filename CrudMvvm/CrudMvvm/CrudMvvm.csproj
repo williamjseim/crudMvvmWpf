@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Desktop\DataAccessLibrary\DataAccessLibrary.csproj" />
+    <ProjectReference Include="..\..\DataAccessLibrary\DataAccessLibrary.csproj" />
   </ItemGroup>
 
 </Project>

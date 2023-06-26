@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudMvvm", "CrudMvvm\CrudMvvm.csproj", "{B9293E92-AC53-49CC-80EF-BDB09F91295C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "..\..\..\Desktop\DataAccessLibrary\DataAccessLibrary.csproj", "{B5C40601-3885-4F78-8549-BE82A78870D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "..\DataAccessLibrary\DataAccessLibrary.csproj", "{206CDBFC-F390-4AE0-B5BA-9D399FBB5ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B9293E92-AC53-49CC-80EF-BDB09F91295C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9293E92-AC53-49CC-80EF-BDB09F91295C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9293E92-AC53-49CC-80EF-BDB09F91295C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5C40601-3885-4F78-8549-BE82A78870D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5C40601-3885-4F78-8549-BE82A78870D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5C40601-3885-4F78-8549-BE82A78870D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5C40601-3885-4F78-8549-BE82A78870D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206CDBFC-F390-4AE0-B5BA-9D399FBB5ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206CDBFC-F390-4AE0-B5BA-9D399FBB5ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206CDBFC-F390-4AE0-B5BA-9D399FBB5ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206CDBFC-F390-4AE0-B5BA-9D399FBB5ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
