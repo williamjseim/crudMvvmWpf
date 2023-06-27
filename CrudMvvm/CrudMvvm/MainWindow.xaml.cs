@@ -38,19 +38,14 @@ namespace CrudMvvm
             viewModel.GetData();
             ShitGrid.DataContext = dataContextBinding;
             ShitGrid.ItemsSource = viewModel.List;
-            viewModel.List.CollectionChanged += test;
-        }
-
-        void test(object sender, EventArgs e)
-        {
-            ShitGrid.ItemsSource = viewModel.List;
         }
 
         void OpenDialogBox(object sender, RoutedEventArgs e)
         {
             NewUserDialogBox dialog = new();
-            dialog.ShowDialog();
             dialog.button.Click += viewModel.CreateNewUser;
+            dialog.Closed += async (s, e) => { await viewModel.GetData(); };
+            dialog.ShowDialog();
         }
 
         private void EditData(object sender, RoutedEventArgs e)

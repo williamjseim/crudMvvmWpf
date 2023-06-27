@@ -9,6 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
 
@@ -38,8 +39,28 @@ namespace CrudMvvm
 
         public async void EditData(shitModel data)
         {
-            await TempDataGetter.EditData(data);
+            NewUserDialogBox editUserBox = new();
+            editUserBox.DataContext = new DialogViewModel { Password = data.passWord, Username = data.userName, id = data.id };
+            editUserBox.button.Click += SubmitEditedData;
+            editUserBox.ShowDialog();
+            //await TempDataGetter.EditData(data);
             Debug.Print(data.ToString());
+        }
+
+        public async void SubmitEditedData(object sender, RoutedEventArgs e)
+        {
+            if(sender is Button btn)
+            {
+                DialogViewModel? data = ((Button)e.Source).DataContext as DialogViewModel;
+                if(data != null)
+                {
+                    await TempDataGetter.EditData(data);
+                    shitModel model = List.Where(i => i.id == data.id).First();
+                    model.userName = data.Username;
+                    model.passWord = data.Password;
+                    ((NewUserDialogBox)((Grid)btn.Parent).Parent).Close();
+                }
+            }
         }
 
         public async void DeleteData(shitModel data)
@@ -49,9 +70,12 @@ namespace CrudMvvm
         }
         public async void CreateNewUser(object sender, RoutedEventArgs e)
         {
-            shitModel model = new shitModel { userName = "username", passWord = "password" };
-            await TempDataGetter.CreateNewUser(model);
-            GetData();
+            if(sender is Button obj)
+            {
+                DialogViewModel data = (DialogViewModel)((Button)e.Source).DataContext;
+                await TempDataGetter.CreateNewUser(data);
+                ((NewUserDialogBox)((Grid)obj.Parent).Parent).Close();
+            }
         }
     }
 }

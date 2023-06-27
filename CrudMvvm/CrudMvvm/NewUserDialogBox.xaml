@@ -4,16 +4,63 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CrudMvvm"
+        xmlns:DataAccess="clr-namespace:DataAccessLibrary;assembly=DataAccessLibrary"
         mc:Ignorable="d"
         Title="NewUserDialogBox" Height="138" Width="174">
+    <Window.DataContext>
+        <DataAccess:DialogViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <VisualBrush x:Key="UsernameHint" TileMode="None" Stretch="None" AlignmentX="Center">
+            <VisualBrush.Transform>
+                <TranslateTransform X="5" Y="0" />
+            </VisualBrush.Transform>
+            <VisualBrush.Visual>
+                <Grid>
+                    <TextBlock FontStyle="Italic" Foreground="Black" Opacity="0.3" Text="Username …"/>
+                </Grid>
+            </VisualBrush.Visual>
+        </VisualBrush>
+        <VisualBrush x:Key="PasswordHint" TileMode="None" Stretch="None" AlignmentX="Center">
+            <VisualBrush.Transform>
+                <TranslateTransform X="5" Y="0" />
+            </VisualBrush.Transform>
+            <VisualBrush.Visual>
+                <Grid>
+                    <TextBlock FontStyle="Italic" Foreground="Black" Opacity="0.3" Text="Password …"/>
+                </Grid>
+            </VisualBrush.Visual>
+        </VisualBrush>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock content HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="0"></TextBlock>
-        <Label Content="PassWord" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Width="174" Height="41"></Label>
-        <Button Name="button" Content="ok" Grid.Row="2"></Button>
+        <TextBox Name="username" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Width="174" Height="40" Grid.Row="0" Text="{Binding Username, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="">
+                            <Setter Property="Background" Value="{StaticResource UsernameHint}" ></Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Width="174" Height="40" Grid.Row="1" Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="">
+                            <Setter Property="Background" Value="{StaticResource PasswordHint}"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <Button Name="button" IsEnabled="True" Content="ok" Grid.Row="2">
+        </Button>
     </Grid>
 </Window>

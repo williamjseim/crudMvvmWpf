@@ -24,9 +24,9 @@ namespace DataAccessLibrary
             return _db.LoadData <shitModel, dynamic > (sql, new { });
         }
 
-        public Task EditData(shitModel model)
+        public Task EditData(DialogViewModel model)
         {
-            string sql = $"update Shit set username = '{model.userName}', password = '{model.passWord}' where id = {model.id}";
+            string sql = $"update Shit set username = '{model.Username}', password = '{model.Password}' where id = {model.id}";
 
             return _db.SaveData(sql, model);
         }
@@ -38,9 +38,9 @@ namespace DataAccessLibrary
             return _db.SaveData(sql, model);
         }
 
-        public Task CreateNewUser(shitModel model)
+        public Task CreateNewUser(DialogViewModel model)
         {
-            string sql = $"insert into Shit (userName, password) values('{model.userName}','{model.passWord}')";
+            string sql = $"insert into Shit (userName, password) values('{model.Username}','{model.Password}')";
 
             return _db.SaveData(sql, model);
         }

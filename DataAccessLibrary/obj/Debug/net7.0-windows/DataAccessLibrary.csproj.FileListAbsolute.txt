@@ -22,3 +22,15 @@ F:\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.
 F:\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\refint\DataAccessLibrary.dll
 F:\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.pdb
 F:\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\ref\DataAccessLibrary.dll
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\bin\Debug\net7.0-windows\DataAccessLibrary.deps.json
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\bin\Debug\net7.0-windows\DataAccessLibrary.dll
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\bin\Debug\net7.0-windows\DataAccessLibrary.pdb
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.dll
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\refint\DataAccessLibrary.dll
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\DataAccessLibrary.pdb
+C:\Users\zbcwise\Documents\GitHub\crudMvvm\DataAccessLibrary\obj\Debug\net7.0-windows\ref\DataAccessLibrary.dll
